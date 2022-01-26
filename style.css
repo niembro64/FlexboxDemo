@@ -15,10 +15,26 @@
     flex: 1;
     height: 100%;
     background-color: green;
+    margin: 0px 100px;
 }
 
 #red {
     flex: 1;
     height: 100%;
     background-color: red;
+}
+
+.boxes {
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    display: inline-block;
+}
+
+#parentBox {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
 }
